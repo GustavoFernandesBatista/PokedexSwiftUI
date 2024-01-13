@@ -1,0 +1,19 @@
+name: PokedexSwiftUI
+options:
+    bundleIdPrefix: "gustavofernandes.PokedexSwiftUI"
+    deploymentTarget:
+        iOS: "11.0"
+    createIntermediateGroups: true
+
+
+targetTemplates:
+    Default:
+
+
+targets:
+    "PokedexSwiftUI":  # nome do seu modulo que também vai ser seu target principal
+        templates: Default
+        type: framework
+        platform: iOS
+        sources: ["/Users/gustavofernandes/Documents/PokedexSwiftUI"] # a pasta onde está seu código
+        dependencies: []
