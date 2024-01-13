@@ -29,7 +29,8 @@ struct ContentView: View {
                         }
                         
                     }
-                }.padding()
+                }.padding(20)
+                    
             } // scroll
             .shadow(radius: 12)
             .searchable(text: $pokemonToSearch, prompt: "Procure o Pokemon")
